@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useMovies } from '../hooks/useLocalStorage';
 import { GENRES, DEFAULT_TAGS, MEDIA_TYPES } from '../Interfaces/constants';
 import { INITIAL_MOVIE_FORM } from '../Interfaces/MovieModel';
-import TagBadge from '../components/TagBadge';
+import TagBadge from '../Components/TagBadge';
 
 function AddMovie() {
     const navigate = useNavigate();

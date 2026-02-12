@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
-import Home from './pages/Home';
-import AddMovie from './pages/AddMovie';
-import MovieDetail from './pages/MovieDetail';
-import EditMovie from './pages/EditMovie';
+import Home from './Pages/Home';
+import AddMovie from './Pages/AddMovie';
+import MovieDetail from './Pages/MovieDetail';
+import EditMovie from './Pages/EditMovie';
 
 function App() {
   return (

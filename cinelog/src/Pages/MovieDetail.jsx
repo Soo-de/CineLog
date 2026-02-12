@@ -2,9 +2,9 @@ import { useState, useRef, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useMovies } from '../hooks/useLocalStorage';
-import RatingDisplay from '../components/RatingDisplay';
-import TagBadge from '../components/TagBadge';
-import SceneGallery from '../components/SceneGallery';
+import RatingDisplay from '../Components/RatingDisplay';
+import TagBadge from '../Components/TagBadge';
+import SceneGallery from '../Components/SceneGallery';
 
 function MovieDetail() {
     const { id } = useParams();

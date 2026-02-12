@@ -2,8 +2,8 @@ import { useState, useMemo, useRef, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 import { useMovies } from '../hooks/useLocalStorage';
-import RatingDisplay from '../components/RatingDisplay';
-import TagBadge from '../components/TagBadge';
+import RatingDisplay from '../Components/RatingDisplay';
+import TagBadge from '../Components/TagBadge';
 
 // Gallery Movie Item - Full screen exhibition style
 function GalleryItem({ movie, index }) {
