@@ -6,11 +6,50 @@
 
 ## 📸 Ekran Görüntüleri
 
-<!-- Projenizin ekran görüntülerini buraya ekleyin -->
-<!-- Örnek kullanım: -->
-<!-- ![Ana Sayfa](screenshots/home.png) -->
-<!-- ![Film Detay](screenshots/detail.png) -->
-<!-- ![Film Ekleme](screenshots/add.png) -->
+### 🏠 Ana Sayfa — Hero Alanı
+Uygulamaya ilk girişte karşılayan karanlık temalı hero bölümü ve arşiv istatistikleri.
+
+![Ana Sayfa — Hero](images/Home1.png)
+
+### 🎞️ Ana Sayfa — Film Kartları
+Arşivdeki filmler etkileyici kartlar halinde listelenir. Her kartta kapak fotoğrafı, puan, kategori, etiketler ve kısa değerlendirme görüntülenir.
+
+![Ana Sayfa — Film Kartı](images/Home2.png)
+
+### 📺 Ana Sayfa — Dizi Kartları
+Diziler de aynı premium tasarımla listelenir; medya türü, puan ve etiketler bir bakışta görülür.
+
+![Ana Sayfa — Dizi Kartı](images/Home3.png)
+
+### 🔍 Arama & Filtreleme
+Başlığa göre arama yapılabilir. Arama sonucu bulunamazsa kullanıcıya bilgilendirme mesajı gösterilir.
+
+![Arama](images/Search.png)
+
+### ➕ Yeni İçerik Ekleme
+Film veya dizi eklemek için kapsamlı bir form: başlık, tür, kapak fotoğrafı, puan slider'ı, kategoriler, etiketler ve etkileyici sahne galerisi.
+
+![Yeni Ekleme](images/Create.png)
+
+### ✏️ İçerik Düzenleme
+Mevcut içeriklerin tüm bilgileri düzenlenebilir. Seçili kategoriler ve etiketler formda önceden işaretli olarak gelir.
+
+![Düzenleme](images/Update.png)
+
+### 📄 Film Detay — Üst Bölüm
+Detay sayfasında kapak fotoğrafı, puan, arşive eklenme tarihi, istatistikler (sahne, etiket, kategori sayıları) ve etiket rozetleri görüntülenir.
+
+![Detay Üst](images/Detail1.png)
+
+### 📄 Film Detay — Alt Bölüm
+Değerlendirme metni ve etkileyici sahneler galerisi (fotoğraf + yorum) detay sayfasının alt kısmında yer alır.
+
+![Detay Alt](images/Detail2.png)
+
+### 🗑️ Silme Onayı
+İçerik silinmeden önce kullanıcıya onay modalı gösterilir; yanlışlıkla silme işlemi engellenir.
+
+![Silme Onayı](images/DeleteWarning.png)
 
 ---
 
@@ -110,10 +149,10 @@ cinelog/
 
 ```bash
 # 1. Projeyi klonlayın
-git clone https://github.com/KULLANICI_ADINIZ/cinelog.git
+git clone https://github.com/Soo-de/CineLog.git
 
 # 2. Proje dizinine gidin
-cd cinelog
+cd CineLog/cinelog
 
 # 3. Bağımlılıkları yükleyin
 npm install
@@ -191,3 +230,11 @@ Tüm CRUD işlemleri `useMovies()` hook'u üzerinden yönetilir:
     createdAt: ''        // Otomatik ISO tarih
 }
 ```
+
+
+
+
+
+<p align="center">
+  <b>CineLog</b> ile izlediğiniz her anı kaydedin. 🎬✨
+</p>
