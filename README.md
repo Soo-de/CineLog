@@ -3,6 +3,8 @@
 > İzlediğiniz film ve dizileri arşivleyin, puanlayın, etiketleyin ve etkileyici sahneleri fotoğraflarıyla birlikte kaydedin. CineLog, sinema tutkunları için tasarlanmış modern ve şık bir kişisel arşiv uygulamasıdır.
 
 ---
+## 🌍 Canlı Demo
+🔗 [CineLog — Canlı Demo](https://jade-tiramisu-64f13d.netlify.app/)
 
 ## 📸 Ekran Görüntüleri
 
